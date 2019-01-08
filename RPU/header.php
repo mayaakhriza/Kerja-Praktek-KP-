@@ -47,14 +47,15 @@
                             </li>
 
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">STAF Anggota<b class=" icon-angle-down"></b></a>
+								<a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Data Karyawan<b class=" icon-angle-down"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="typography.php">Patroli</a></li>
-									<li><a href="components.php">Survei</a></li>
-                                    <li><a href="blog.php">Monitoring</a></li>
-                                    <li><a href="pricingbox.php">Pemberdayaan Masyarakat</a></li>
-                                    <li><a href="pricingbox.php">Penyadartahuan</a></li>
-                                    <li><a href="pricingbox.php">dll</a></li>
+									<li><a href="typography.php">Staff Manajemen</a></li>
+									<li><a href="components.php">Tim Patroli</a></li>
+									<li><a href="components.php">Tim Survei</a></li>
+                                    <li><a href="blog.php">Tim Monitoring</a></li>
+                                    <li><a href="pricingbox.php">Tim Pemberdayaan Masyarakat</a></li>
+                                    <li><a href="pricingbox.php">Tim Penyadartahuan</a></li>
+                
 								</ul>
                             </li>
 
@@ -66,7 +67,7 @@
                                     <li><a href="blog.php">Monitoring</a></li>
                                     <li><a href="pricingbox.php">Pemberdayaan Masyarakat</a></li>
                                     <li><a href="pricingbox.php">Pameran</a></li>
-                                    <li><a href="pricingbox.php">dll</a></li>
+                             
 								</ul>
 							</li>
 							<li><a href="contact.php">Kontak</a></li>

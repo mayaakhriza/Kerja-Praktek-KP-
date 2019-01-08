@@ -1,0 +1,12 @@
+<?php
+include "proses/koneksi.php";
+?>
+<div style="margin-left: 218px;height:80vh;"class="inner-block">
+<?php
+echo $_SESSION['judul'];
+ $jmlbuku=$_SESSION['judul'];
+ $username=$_SESSION['username']; ?>
+<p><?php echo $username?></p>
+<p><?php echo $jmlbuku?></p>
+
+</div>
