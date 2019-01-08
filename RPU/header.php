@@ -59,17 +59,7 @@
 								</ul>
                             </li>
 
-                            <li class="dropdown">
-								<a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Dokumentasi Kegiatan<b class=" icon-angle-down"></b></a>
-								<ul class="dropdown-menu">
-                                    <li><a href="typography.php">Patroli</a></li>
-									<li><a href="components.php">Survei</a></li>
-                                    <li><a href="blog.php">Monitoring</a></li>
-                                    <li><a href="pricingbox.php">Pemberdayaan Masyarakat</a></li>
-                                    <li><a href="pricingbox.php">Pameran</a></li>
-                             
-								</ul>
-							</li>
+                        
 							<li><a href="contact.php">Kontak</a></li>
 							<li><a href="../auth_php/index.php">Login</a></li>
 						</ul>

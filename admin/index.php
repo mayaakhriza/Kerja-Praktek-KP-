@@ -6,7 +6,7 @@
     if($_GET['p']=="home")
       include "home.php";
     else if($_GET['p']=="buku")
-      include "panelbuku.php";
+      include "panelkaryawan.php";
     else if($_GET['p']=="user")
       include "paneluser.php";
     // else if($_GET['p']=="profil")

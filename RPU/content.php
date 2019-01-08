@@ -123,21 +123,21 @@
 						</div>
 					</div>
 				</div>
-				<!-- divider -->
+				divider -->
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="solidline">
 						</div>
 					</div>
 				</div>
-				<!-- end divider -->
-
+				<!-- end divider
+	</div>
+		</section>
 				<?php
 
 					require_once('berandacontent.php');
 
 				?>
 
-			</div>
-		</section>
+		
 		
