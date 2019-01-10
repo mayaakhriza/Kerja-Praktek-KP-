@@ -7,7 +7,7 @@
   $tmp_name= $_FILES['file']['tmp_name'];
   move_uploaded_file($tmp_name, '../file/'.$file);
 
-  $input = mysqli_query($koneksi, "UPDATE buku SET file='$file', WHERE id='$id'" ) or die(mysqli_error($koneksi));
+  $input = mysqli_query($koneksi, "UPDATE karyawan SET file='$file', WHERE id='$id'" ) or die(mysqli_error($koneksi));
 
   if($input){
       echo "

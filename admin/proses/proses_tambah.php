@@ -2,11 +2,12 @@
 include "koneksi.php";
 
 //get data
-$judul= $_POST['judul'];
-$penulis= $_POST['penulis'];
+$nama= $_POST['nama'];
+$jabatan= $_POST['jabatan'];
+$no_hp= $_POST['no_hp'];
 $tahun= $_POST['year'];
-$genre= $_POST['genre'];
-$sinopsis= $_POST['mytextarea'];
+$tim= $_POST['tim'];
+$email= $_POST['email'];
 //data gambar
 $cover= $_FILES['cover']['name'];
 $name_cover= $_FILES['cover']['tmp_name'];
@@ -18,8 +19,8 @@ $tmp_name= $_FILES['file']['tmp_name'];
 move_uploaded_file($tmp_name, '../file/'.$file);
 
 $input= mysqli_query($koneksi,
-"INSERT INTO buku(judul, penulis, tahun, cover, file, sinopsis, genre)
-VALUES('$judul', '$penulis', '$tahun', '$cover', '$file', '$sinopsis', '$genre')") or die (mysqli_error($koneksi));
+"INSERT INTO karyawan (nama, jabatan, no_hp, tahun, tim, email, cover, file)
+VALUES('$nama', '$jabatan','$no_hp', '$tahun', '$tim','$email', '$cover', '$file')  ") or die (mysqli_error($koneksi));
 
 if($input){
   echo "

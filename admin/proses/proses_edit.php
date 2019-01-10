@@ -3,13 +3,14 @@
 
   //get data
   $id= $_POST['id'];
-  $judul= $_POST['judul'];
-  $penulis= $_POST['penulis'];
+  $nama= $_POST['nama'];
+  $jabatan= $_POST['jabatan'];
+  $no_hp=$_POST['no_hp'];
   $tahun= $_POST['year'];
-  $genre= $_POST['genre'];
-  $sinopsis= $_POST['mytextarea'];
+  $tim= $_POST['tim'];
+  $email= $_POST['email'];
 
-  $input = mysqli_query($koneksi, "UPDATE buku SET judul='$judul', penulis='$penulis', tahun='$tahun', sinopsis='$sinopsis', genre='$genre' WHERE id='$id'" ) or die(mysqli_error($koneksi));
+  $input = mysqli_query($koneksi, "UPDATE karyawan SET nama='$nama', jabatan='$jabatan', no_hp='$no_hp', tahun='$tahun', email='$email', tim='$tim' WHERE id='$id'" ) or die(mysqli_error($koneksi));
 
   if($input){
       echo "

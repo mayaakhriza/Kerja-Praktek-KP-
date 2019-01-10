@@ -1726,7 +1726,7 @@ p.grid1 {
     padding: 6.5em 0em;
 }
 .login-head {
-    background: url(../images/login.jpg)no-repeat;
+    background: url(../img/login.jpg)no-repeat;
     background-size: cover;
     min-height: 150px;
 }
@@ -1742,7 +1742,7 @@ p.grid1 {
 }
 .login-block input[type="text"], .login-block input[type="password"] {
     font-size: 0.9em;
-    padding: 10px 20px;
+    padding: 10px 0px;
     width: 100%;
     color:#8C8C8C;
     outline: none;
@@ -1927,7 +1927,7 @@ p.grid1 {
     box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.15);
 }
 .signup-head {
-    background: url(../images/login.jpg)no-repeat;
+    background: url(../img/login.jpg)no-repeat;
     background-size: cover;
     min-height: 150px;
 }
@@ -1943,7 +1943,7 @@ p.grid1 {
 }
 .signup-block input[type="text"], .signup-block input[type="password"], .signup-block input[type="email"] {
     font-size: 0.9em;
-    padding: 10px 20px;
+    padding: 10px 0px;
     width: 100%;
     color:#686967;
     outline: none;
@@ -3092,11 +3092,9 @@ p.bottom {
 @media (max-width:1440px){
 .page-container.sidebar-collapsed-back .sidebar-menu {
     width: 190px;
-    height: 1000px;
 }
 .sidebar-menu {
     width: 190px;
-    height: 1000px;
 }
 .logo {
     left: 130px;

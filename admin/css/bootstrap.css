@@ -2428,8 +2428,18 @@ table th[class*="col-"] {
   background-color: #ebcccc;
 }
 .table-responsive {
-  min-height: .01%;
+  min-height: auto;
   overflow-x: auto;
+}
+
+.table-datakaryawan{
+  width:450px;
+  height:500px;
+  margin: 30px 30px 30px 30px;
+  padding: 20px 20px 20px 20px;
+  border:1px black dotted;
+  overflow-y:auto;
+  overflow-x:scroll;
 }
 @media screen and (max-width: 767px) {
   .table-responsive {

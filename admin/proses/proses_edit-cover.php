@@ -7,7 +7,7 @@
   $name_cover= $_FILES['cover']['tmp_name'];
   move_uploaded_file($name_cover, '../cover/'.$cover);
 
-  $input = mysqli_query($koneksi, "UPDATE buku SET cover='$cover' WHERE id='$id'" ) or die(mysqli_error($koneksi));
+  $input = mysqli_query($koneksi, "UPDATE karyawan SET cover='$cover' WHERE id='$id'" ) or die(mysqli_error($koneksi));
 
   if(  move_uploaded_file($name_cover, '../cover/'.$cover)){
       echo "

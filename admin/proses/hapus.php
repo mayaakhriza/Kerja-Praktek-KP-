@@ -2,7 +2,7 @@
   include "koneksi.php";
   $id= $_GET['id'];
 
-  $hapus= mysqli_query($koneksi, "DELETE FROM buku WHERE id='$id'") or die(mysqli_error($koneksi));
+  $hapus= mysqli_query($koneksi, "DELETE FROM karyawan WHERE id='$id'") or die(mysqli_error($koneksi));
 
   if($hapus){
       echo "
