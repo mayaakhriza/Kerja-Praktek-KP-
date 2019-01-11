@@ -29,7 +29,6 @@
 						<div class="form-group">
 							<div class="form-control"> <b>Email : </b> info@badak.or.id  </div>
 						</div>
-						<div class="text-center"><button type="submit" class="btn btn-theme">Send Message</button></div>
 					</form>
 				</div>
 			</div>

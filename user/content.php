@@ -88,68 +88,85 @@
 							<div class="col-lg-3">
 								<div class="box">
 									<div class="box-gray aligncenter">
-										<h4>Fully responsive</h4>
+										<h4>Staf Manajemen</h4>
 										<div class="icon">
 											<i class="fa fa-desktop fa-3x"></i>
 										</div>
 										<p>
-											Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
+											apa hayo
 										</p>
 
 									</div>
 									<div class="box-bottom">
-										<a href="#">Lihat Detail</a>
+										<a href="stafmanajemen.php">Lihat Detail</a>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-3">
 								<div class="box">
 									<div class="box-gray aligncenter">
-										<h4>Modern Style</h4>
+										<h4>Patroli</h4>
 										<div class="icon">
 											<i class="fa fa-pagelines fa-3x"></i>
 										</div>
 										<p>
-											Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
+											wahh keren
 										</p>
 
 									</div>
 									<div class="box-bottom">
-										<a href="#">Lihat Detail</a>
+										<a href="patroli.php">Lihat Detail</a>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-3">
 								<div class="box">
 									<div class="box-gray aligncenter">
-										<h4>Customizable</h4>
+										<h4>Survei Monitoring</h4>
 										<div class="icon">
 											<i class="fa fa-edit fa-3x"></i>
 										</div>
 										<p>
-											Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
+											woowwww
 										</p>
 
 									</div>
 									<div class="box-bottom">
-										<a href="#">Lihat Detail</a>
+										<a href="survmon.php">Lihat Detail</a>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-3">
 								<div class="box">
 									<div class="box-gray aligncenter">
-										<h4>Valid HTML5</h4>
+										<h4>ILEU</h4>
 										<div class="icon">
 											<i class="fa fa-code fa-3x"></i>
 										</div>
 										<p>
-											Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
+											kelen
 										</p>
 
 									</div>
 									<div class="box-bottom">
-										<a href="#">Lihat Detail</a>
+										<a href="ileu.php">Lihat Detail</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<div class="box">
+									<div class="box-gray aligncenter">
+										<h4>Pemberdayaan Masyarakat</h4>
+										<div class="icon">
+											<i class="fa fa-edit fa-3x"></i>
+										</div>
+										<p>
+											wahhhhhhhhhh
+										</p>
+
+									</div>
+									<div class="box-bottom">
+										<a href="masyarakat.php">Lihat Detail</a>
 									</div>
 								</div>
 							</div>

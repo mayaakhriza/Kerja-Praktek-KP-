@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,6 +23,7 @@
 	<div id="wrapper">
 		<!-- start header -->
 		<header>
+			
 			<div class="navbar navbar-default navbar-static-top">
 				<div class="container">
 					<div class="navbar-header">
@@ -39,11 +41,11 @@
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Data Karyawan <b class=" icon-angle-down"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="typography.php">Tim Staf Manajemen</a></li>
-									<li><a href="typography.php">Tim Patroli</a></li>
-									<li><a href="components.php">Tim Survei Monitoring</a></li>
-                                    <li><a href="blog.php">Tim ILEU</a></li>
-                                    <li><a href="pricingbox.php">Tim Pemberdayaan Masyarakat</a></li>
+									<li><a href="stafmanajemen.php">Tim Staf Manajemen</a></li>
+									<li><a href="patroli.php">Tim Patroli</a></li>
+									<li><a href="survmon.php">Tim Survei Monitoring</a></li>
+                                    <li><a href="ileu.php">Tim ILEU</a></li>
+                                    <li><a href="masyarakat.php">Tim Pemberdayaan Masyarakat</a></li>
 								</ul>
                             </li>
 
@@ -60,6 +62,13 @@
                             </li>
 
 							<li><a href="contact.php">Kontak</a></li>
+							<?php
+                                    if(!isset($_SESSION['username']))
+                                      echo "<li> <a href='login.php'>Login</a></li>";
+                                    else {
+                                      echo "<li> <a href='logout.php'>Keluar</a></li>";
+                                    }
+                                     ?>
 						</ul>
 					</div>
 				</div>
